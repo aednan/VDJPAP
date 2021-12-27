@@ -1,0 +1,27 @@
+spring:
+  db1:
+    datasource:
+      jdbcUrl: "jdbc:postgresql://localhost:5432/jpap_db1?serverTimezone=CET"
+      username: "postgres"
+      password: "postgres"
+      driver-class-name: "org.postgresql.Driver"
+  db2:
+    datasource:
+      jdbcUrl: "jdbc:postgresql://localhost:5432/jpap_db2?serverTimezone=CET"
+      username: "postgres"
+      password: "postgres"
+      driver-class-name: "org.postgresql.Driver"
+  dbsec:
+    datasource:
+      jdbcUrl: "jdbc:postgresql://localhost:5432/jpap_dbsec?serverTimezone=CET"
+      username: "postgres"
+      password: "postgres"
+      driver-class-name: "org.postgresql.Driver"
+  jpa:
+    database: default
+    properties.hibernate.jdbc.lab.non_contextual_creation: true
+    hibernate:
+      ddl-auto: "create"
+
+server:
+  port: 8080

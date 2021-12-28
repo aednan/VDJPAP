@@ -53,13 +53,13 @@ Nodejs sollte bereits installiert sein, ansonsten siehe bitte https://nodejs.dev
 
 ## Frontend Zugangsdaten
 
-Benutzername: adnan 
-Passwort: adnan
+- Benutzername: adnan 
+- Passwort: adnan
 
 or 
 
-Benutzername: admin
-Passwort: admin
+- Benutzername: admin
+- Passwort: admin
 
 
 # Backend

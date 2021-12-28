@@ -51,6 +51,16 @@ Befehl: npm start
 
 Nodejs sollte bereits installiert sein, ansonsten siehe bitte https://nodejs.dev/learn/how-to-install-nodejs
 
+## Frontend Zugangsdaten
+
+Benutzername: adnan 
+Passwort: adnan
+
+or 
+
+Benutzername: admin
+Passwort: admin
+
 
 # Backend
 

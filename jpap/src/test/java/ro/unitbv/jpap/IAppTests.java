@@ -1,7 +1,6 @@
 package ro.unitbv.jpap;
 
 import org.junit.jupiter.api.*;
-import org.junit.jupiter.api.condition.DisabledOnJre;
 import org.junit.jupiter.api.condition.EnabledOnJre;
 import org.junit.jupiter.api.condition.JRE;
 import org.junit.jupiter.api.extension.ExtendWith;

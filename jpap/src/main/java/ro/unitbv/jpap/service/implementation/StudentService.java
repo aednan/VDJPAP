@@ -44,11 +44,11 @@ public class StudentService implements IStudentService {
     @Autowired
     private StudentMapper studentMapper;
 
-    @Override
-    public void addStudent(StudentDTO studentDTO) {
-        db1StudentRepository.save(studentMapper.toStudent(studentDTO));
-//        db2StudentRepository.save(studentMapper.toStudent(studentDTO));
-    }
+//    @Override
+//    public void addStudent(StudentDTO studentDTO) {
+//        db1StudentRepository.save(studentMapper.toStudent(studentDTO));
+////      db2StudentRepository.save(studentMapper.toStudent(studentDTO));
+//    }
 
     @Override
     public List<StudentDTO> fetchAll() {

@@ -64,7 +64,6 @@ public class User implements UserDetails, Serializable {
         WRITE,
         READ
     }
-    ///////////////////////////////
 
     public User() { }
 
@@ -112,8 +111,6 @@ public class User implements UserDetails, Serializable {
     public boolean isEnabled() {
         return this.enabled;
     }
-
-//---
 
     public void setUsername(String username) {
         this.username = username;

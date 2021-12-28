@@ -28,7 +28,7 @@ import java.util.List;
 
 public interface IStudentService {
 
-     public void addStudent(StudentDTO studentDTO);
+//     public void addStudent(StudentDTO studentDTO);
 
      public List<StudentDTO> fetchAll();
 }

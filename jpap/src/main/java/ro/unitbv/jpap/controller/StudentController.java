@@ -52,8 +52,7 @@ public class StudentController {
 
 //    @PostMapping("/add")
 //    public ResponseEntity<StudentDTO> addStudent(@RequestBody(required = true) StudentDTO student){
-////     studentService.addStudent(student);
-//
+//     studentService.addStudent(student);
 //     return ResponseEntity.ok().body(student);
 //    }
 

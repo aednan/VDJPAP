@@ -15,7 +15,7 @@
  * 		along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package ro.unitbv.jpap.security.entity;
+package ro.unitbv.jpap.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
